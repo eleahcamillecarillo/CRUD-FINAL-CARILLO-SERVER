@@ -1,0 +1,99 @@
+{
+  "info": {
+    "_postman_id": "6c9dd16d-5b03-4c0b-9a62-8a8408e1f2b2",
+    "name": "CRUD - Products API (Express + MySQL)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET Products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/products"
+        }
+      }
+    },
+    {
+      "name": "POST Product (Create)",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('status is 200', function () {",
+              "  pm.response.to.have.status(200);",
+              "});",
+              "",
+              "const json = pm.response.json();",
+              "const data = json && json.data ? json.data : {};",
+              "const id = data.id_product || data.id || data.insertId;",
+              "if (id) pm.environment.set('productId', String(id));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"product\": \"{{productName}}\",\n  \"category\": \"{{category}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/products"
+        }
+      }
+    },
+    {
+      "name": "GET Product (By Id)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/products/{{productId}}"
+        }
+      }
+    },
+    {
+      "name": "PATCH Product (Partial Update)",
+      "request": {
+        "method": "PATCH",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"category\": \"Tools (Updated)\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/products/{{productId}}"
+        }
+      }
+    },
+    {
+      "name": "PUT Product (Full Update)",
+      "request": {
+        "method": "PUT",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"product\": \"{{productName}} (Updated)\",\n  \"category\": \"{{category}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/products/{{productId}}"
+        }
+      }
+    },
+    {
+      "name": "DELETE Product",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/products/{{productId}}"
+        }
+      }
+    }
+  ]
+}

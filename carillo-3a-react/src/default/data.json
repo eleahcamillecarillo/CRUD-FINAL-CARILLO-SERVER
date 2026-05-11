@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "name": "Hammer",
+        "price": 150,
+        "category": "Tools"
+    },
+    {
+        "id": 2,
+        "name": "Wrench",
+        "price": 200,
+        "category": "Tools"
+    },
+    {
+        "id": 3,
+        "name": "T-Bar",
+        "price": 170,
+        "category": "Tools"
+    },
+    {
+        "id": 4,
+        "name": "Screwdriver Set",
+        "price": 220,
+        "category": "Tools"
+    },
+    {
+        "id": 5,
+        "name": "Pliers",
+        "price": 180,
+        "category": "Tools"
+    },
+    {
+        "id": 6,
+        "name": "Socket Set",
+        "price": 450,
+        "category": "Tools"
+    },
+    {
+        "id": 7,
+        "name": "Adjustable Wrench",
+        "price": 230,
+        "category": "Tools"
+    },
+    {
+        "id": 8,
+        "name": "Tape Measure",
+        "price": 120,
+        "category": "Tools"
+    },
+    {
+        "id": 9,
+        "name": "Utility Knife",
+        "price": 140,
+        "category": "Tools"
+    },
+    {
+        "id": 10,
+        "name": "Handsaw",
+        "price": 260,
+        "category": "Tools"
+    },
+    {
+        "id": 11,
+        "name": "Chisel Set",
+        "price": 310,
+        "category": "Tools"
+    },
+    {
+        "id": 12,
+        "name": "Spirit Level",
+        "price": 190,
+        "category": "Tools"
+    },
+    {
+        "id": 13,
+        "name": "Pipe Wrench",
+        "price": 280,
+        "category": "Tools"
+    },
+    {
+        "id": 14,
+        "name": "Allen Key Set",
+        "price": 160,
+        "category": "Tools"
+    },
+    {
+        "id": 15,
+        "name": "Claw Hammer",
+        "price": 175,
+        "category": "Tools"
+    },
+    {
+        "id": 16,
+        "name": "Needle Nose Pliers",
+        "price": 195,
+        "category": "Tools"
+    },
+    {
+        "id": 17,
+        "name": "Bolt Cutter",
+        "price": 520,
+        "category": "Tools"
+    },
+    {
+        "id": 18,
+        "name": "Crowbar",
+        "price": 210,
+        "category": "Tools"
+    },
+    {
+        "id": 19,
+        "name": "Mallet",
+        "price": 185,
+        "category": "Tools"
+    },
+    {
+        "id": 20,
+        "name": "C Clamp",
+        "price": 150,
+        "category": "Tools"
+    },
+    {
+        "id": 21,
+        "name": "Hacksaw",
+        "price": 245,
+        "category": "Tools"
+    },
+    {
+        "id": 22,
+        "name": "Ratchet",
+        "price": 205,
+        "category": "Tools"
+    },
+    {
+        "id": 23,
+        "name": "Torque Wrench",
+        "price": 650,
+        "category": "Tools"
+    },
+    {
+        "id": 24,
+        "name": "Stud Finder",
+        "price": 300,
+        "category": "Tools"
+    },
+    {
+        "id": 25,
+        "name": "Wire Stripper",
+        "price": 170,
+        "category": "Tools"
+    },
+    {
+        "id": 26,
+        "name": "Caulking Gun",
+        "price": 160,
+        "category": "Tools"
+    },
+    {
+        "id": 27,
+        "name": "Hand Drill",
+        "price": 420,
+        "category": "Tools"
+    },
+    {
+        "id": 28,
+        "name": "Power Drill",
+        "price": 1200,
+        "category": "Tools"
+    },
+    {
+        "id": 29,
+        "name": "Impact Driver",
+        "price": 1350,
+        "category": "Tools"
+    },
+    {
+        "id": 30,
+        "name": "Jigsaw",
+        "price": 980,
+        "category": "Tools"
+    },
+    {
+        "id": 31,
+        "name": "Circular Saw",
+        "price": 1500,
+        "category": "Tools"
+    },
+    {
+        "id": 32,
+        "name": "Angle Grinder",
+        "price": 1100,
+        "category": "Tools"
+    },
+    {
+        "id": 33,
+        "name": "Sander",
+        "price": 890,
+        "category": "Tools"
+    },
+    {
+        "id": 34,
+        "name": "Heat Gun",
+        "price": 760,
+        "category": "Tools"
+    },
+    {
+        "id": 35,
+        "name": "Nail Gun",
+        "price": 1400,
+        "category": "Tools"
+    },
+    {
+        "id": 36,
+        "name": "Staple Gun",
+        "price": 330,
+        "category": "Tools"
+    },
+    {
+        "id": 37,
+        "name": "Laser Level",
+        "price": 1250,
+        "category": "Tools"
+    },
+    {
+        "id": 38,
+        "name": "Bench Vise",
+        "price": 540,
+        "category": "Tools"
+    },
+    {
+        "id": 39,
+        "name": "Toolbox",
+        "price": 480,
+        "category": "Tools"
+    },
+    {
+        "id": 40,
+        "name": "Workbench",
+        "price": 2600,
+        "category": "Tools"
+    },
+    {
+        "id": 41,
+        "name": "Putty Knife",
+        "price": 110,
+        "category": "Tools"
+    },
+    {
+        "id": 42,
+        "name": "Paint Scraper",
+        "price": 130,
+        "category": "Tools"
+    },
+    {
+        "id": 43,
+        "name": "Pruning Shears",
+        "price": 290,
+        "category": "Tools"
+    },
+    {
+        "id": 44,
+        "name": "Lopper",
+        "price": 410,
+        "category": "Tools"
+    },
+    {
+        "id": 45,
+        "name": "Shovel",
+        "price": 350,
+        "category": "Tools"
+    },
+    {
+        "id": 46,
+        "name": "Garden Rake",
+        "price": 275,
+        "category": "Tools"
+    },
+    {
+        "id": 47,
+        "name": "Hoe",
+        "price": 260,
+        "category": "Tools"
+    },
+    {
+        "id": 48,
+        "name": "Pickaxe",
+        "price": 620,
+        "category": "Tools"
+    },
+    {
+        "id": 49,
+        "name": "Wheelbarrow",
+        "price": 1800,
+        "category": "Tools"
+    },
+    {
+        "id": 50,
+        "name": "Ladder",
+        "price": 2100,
+        "category": "Tools"
+    }
+]
